@@ -1,0 +1,127 @@
+.header{
+    background-image: url("hotelicon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.headline{
+    
+    font-family: 'Pacifico', cursive;
+    margin-right: 14em;
+    padding-left: 3em;
+   
+    
+}
+.headline a{
+    font-size: 2em;
+    color: rgb(11, 146, 209);
+}
+.navlinks{
+    margin-left:5em;
+    color: black;
+    
+    
+}
+.navlinks:hover{
+    background-color: black;
+    color:rgb(30, 255, 0);
+
+}
+.aboutimg{
+  margin-top: 2.7em;
+  margin-left: 4em ;
+}
+.banner{
+    
+    background-color: rgb(13, 13, 95);
+    
+
+}
+.banner-img{
+    overflow: hidden;
+    height: 70vh;
+    width: 50vw;
+    
+    
+
+}
+
+.menu{
+    background-color: rgb(224, 212, 212);
+    padding-top: 4em ;
+
+}
+.menurow{
+    padding-top: 2.5em;
+    margin-left: 2.5em;
+    margin-right: 3em;
+}
+#menubtn{
+    margin-top: 2em;
+    border: 2px solid red;
+    border-radius: 4px;
+    color: maroon;
+    font-size:1.5em;
+    text-decoration: none;
+    padding: 5px 30px 5px 30px;
+    font-weight: 60px;
+}
+.form{
+    text-align: left;
+    padding: 2px;
+    margin-top: 15px;
+    color: black;
+}
+.contactTitle{
+    color: white;
+    background-color: gray;
+    padding: 20px;
+    
+
+    
+    
+}
+.contactBody{
+  background-color: rgb(240, 235, 235);
+}
+.contactBc{
+    background-image: url("https://images.unsplash.com/photo-1639411957049-f243eb5f83a2?ixlib=rb-4.0.3&ixid=https://images.unsplash.com/photo-1639411957049-f243eb5f83a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZvcm0lMjBiYWNrZ3JvdW5kJTIwaW1hZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60&auto=format&fit=crop&w=500&q=60://plus.unsplash.com/premium_photo-1665203604603-e097954797e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29udGFjdCUyMGltYWdlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60://images.unsplash.com/photo-1608293936737-7f2381cc5b10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29udGFjdCUyMGltYWdlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat; 
+    background-position: 60%;
+    background-size:cover ;
+    height: 80vh;
+    width: 100vw;
+    color: white;
+    
+}
+#contactheading{
+    padding-top: 30vh;
+    padding-left: 10vw;
+}
+#Bctitles{
+    padding-top: 5em;
+    padding-left: 10vw;
+    padding-bottom: 5em;
+}
+#Bclinks a{
+    color: white;
+}
+.review{
+    border: 2px solid black;
+    max-width: 30vw;
+    float: left;
+}
+
+
+
+/* media queries */
+@media only screen and (max-width: 600px){
+    .navlinks{
+        margin-left: 1em;
+    
+    }
+    
+
+}
